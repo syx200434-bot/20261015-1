@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+html {
+  background-color: #f4f1ea;
+}
+
+body {
+  background-color: #f4f1ea;
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+/* 中文 HTML 文字 */
+.lxgw-wenkai-tc-regular {
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 英文與數字 HTML 文字 */
+.caveat-regular {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
